@@ -25,7 +25,7 @@ public class TestRunner {
 		Cell cell=null;
 		try
 		{
-			fin=new FileInputStream("E:\\CurrentWorkSpace\\VaniMonty101\\Reflection-Automation\\DataFiles\\data_Runner_New.xlsx");
+			fin=new FileInputStream("E:\\CurrentWorkspace\\VaniMonty101\\Reflection-Automation\\DataFiles\\data_Runner.xlsx");
 			wb=new XSSFWorkbook(fin);
 			int sc=wb.getNumberOfSheets();
 			for(int s=0;s<sc;s++)
